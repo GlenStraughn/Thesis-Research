@@ -1,0 +1,134 @@
+# OFFSET TEST CONFIG FILE
+# Number of markers
+12
+
+# Entries for each marker. Format is:
+#
+# Name of pattern file (relative to this file)
+# Marker type (SINGLE)
+# Marker width in millimetres (floating point number)
+# Optional tokens:
+#     FILTER [x]   Enable pose estimate filtering for the preceding marker
+#                  x (optional) specifies the cutoff frequency. Default
+#                  value is AR_FILTER_TRANS_MAT_CUTOFF_FREQ_DEFAULT, which
+#                  at time of writing, equals 5.0.
+# A blank line
+
+../Experiment_Data/FeatureSets/Side_1_Bounded
+NFT
+FILTER 15.0
+OFFSET
+1.000	0.000	0.000	0.000
+0.000	1.000	0.000	0.000
+0.000	0.000	1.000	-1.000
+0.000	0.000	0.000	1.000
+
+
+../Experiment_Data/FeatureSets/Side_2_Bounded
+NFT
+FILTER 15.0
+OFFSET
+1.000	0.000	0.000	0.000
+0.000	0.497	0.868	-0.003
+0.000	0.866	-0.500	1.000
+0.000	0.000	0.000	1.000
+
+
+../Experiment_Data/FeatureSets/Side_3_Bounded
+NFT
+FILTER 15.0
+OFFSET
+0.607	0.151	-1.016	0.049
+1.400	0.849	0.455	-1.153
+-0.932	0.766	-0.303	1.124
+0.000	0.000	0.000	1.000
+
+
+../Experiment_Data/FeatureSets/Side_4_Bounded
+NFT
+FILTER 15.0
+OFFSET
+-0.809	0.000	-0.588	0.706
+0.509	0.500	-0.701	-0.259
+-0.294	0.866	0.404	-0.660
+0.000	0.000	0.000	1.000
+
+
+../Experiment_Data/FeatureSets/Side_5_Bounded
+NFT
+FILTER 15.0
+OFFSET
+0.809	0.000	-0.588	0.706
+-0.509	0.500	-0.701	-0.259
+0.294	0.866	0.404	-0.660
+0.000	0.000	0.000	1.000
+
+
+../Experiment_Data/FeatureSets/Side_6_Bounded
+NFT
+FILTER 15.0
+OFFSET
+-1.073	-1.018	1.401	-1.856
+-2.036	-0.999	0.662	-2.275
+1.175	1.731	-0.382	1.622
+0.000	0.000	0.000	1.000
+
+
+../Experiment_Data/FeatureSets/Side_7_Bounded
+NFT
+FILTER 15.0
+OFFSET
+0.809	0.000	0.588	0.706
+-1.017	0.999	1.401	0.882
+0.587	-1.731	-0.808	-1.318
+0.000	0.000	0.000	1.000
+
+
+../Experiment_Data/FeatureSets/Side_8_Bounded
+NFT
+FILTER 15.0
+OFFSET
+-0.309	0.000	0.951	0.221
+-0.824	-0.500	-0.268	-0.679
+-0.475	0.866	-0.155	-0.701
+0.000	0.000	0.000	1.000
+
+
+../Experiment_Data/FeatureSets/Side_9_Bounded
+NFT
+FILTER 15.0
+OFFSET
+-1.000	0.614	0.359	-0.352
+0.000	-0.228	-1.303	-0.454
+0.000	1.287	0.753	-0.738
+0.000	0.000	0.000	1.000
+
+
+../Experiment_Data/FeatureSets/Side_10_Bounded
+NFT
+FILTER 15.0
+OFFSET
+-0.308	0.003	-0.951	-0.223
+0.825	-0.501	-0.262	-0.677
+0.476	0.866	-0.151	-0.700
+0.000	0.000	0.000	1.000
+
+
+../Experiment_Data/FeatureSets/Side_11_Bounded
+NFT
+FILTER 15.0
+OFFSET
+0.809	0.000	-0.588	-0.706
+0.509	-0.500	0.701	-0.259
+0.294	0.866	0.404	0.660
+0.000	0.000	0.000	1.000
+
+
+../Experiment_Data/FeatureSets/Side_12_Bounded
+NFT
+FILTER 15.0
+OFFSET
+-1.000	0.000	0.000	0.000
+0.000	-1.000	0.000	0.000
+0.000	0.000	1.000	1.000
+0.000	0.000	0.000	1.000
